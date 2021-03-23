@@ -1,0 +1,189 @@
+<html>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+<style>
+.nav1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+nav div ul li a {
+    float: right;
+    display: block;
+    padding: 20px 8px 8px 8px;
+    text-align: center;
+    color: #373f47;
+    text-decoration: none;
+    font-size: 13px;
+}
+ul {
+    list-style-type: none;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.profile_photo {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 16px 16px 16px 16px;
+}
+.apps_png {
+    display: block;
+    float: right;
+    width: 30px;
+    height: auto;
+    padding: 16px 16px 16px 16px;
+    opacity: 50%;
+}
+.google_image {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form2 {
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.flex_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 62px 0 55px 0;
+    height: 80%;
+}
+.content {
+    position: fixed;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+#input {
+    height: 100%;
+    width: 80%;
+    margin: 0 50px 0 50px;
+    border: none;  
+}
+#input_container:hover {
+    box-shadow: 0px 3px 3px #dfe1e5;
+}
+button {
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 8px 8px;
+    font-size: 15px;
+    font-family: Arial;
+    border: none;
+}
+.footer1 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #dfe1e5;
+}
+footer div ul li a {
+    display: block;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: #74787d;
+    font-size: 15px;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+button:hover {
+    border: 1px solid #dfe1e5;
+    border-radius: 5px;
+}
+#input_container {
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    width: 600px;
+    height: 40px;
+    margin: 25px 0 25px;
+}
+#input_image1 {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: auto;
+    margin: 0;
+    padding: 10 10 10 20;
+}
+#input_image2 {
+    position: absolute;
+    right: 0;
+    height: 20px;
+    width: auto;
+    margin: 0;
+    padding: 10 20 10 10;
+}
+</style>
+<body>
+<nav>
+    <div class="nav1">
+        <a href="https://github.com/alxdrian"><img class="profile_photo" src="images/profile.jpg"></a>
+        <img src="images/apps.png" class="apps_png">
+        <ul>
+            <li class="nav2"><a href="https://google.com/images">Images</a></li>
+            <li class="nav2"><a href="https://google.com/gmail">Gmail</a></li>
+        </ul> 
+    </div>
+</nav>
+<div class="flex_container">
+    <div class="content">
+        <div><img class="google_image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+        <div class="form1">
+            <form>
+                <div class="form2">
+                    <div id="input_container"><img src="https://p.kindpng.com/picc/s/33-336780_search-icon-grey-png-transparent-png.png" id="input_image1"><input id="input" type="text" value><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/64px-Google_mic.svg.png" id="input_image2"></div>
+                    <div class="buttons">
+                        <button type="search" value="search">Google Search</button>
+                        <button type="lucky" value="lucky">I'm Feeling Lucky</button>
+                    </div>
+                </div> 
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer1">
+        <ul>
+            <li><a href="https://google.com/gmail">Advertising</a></li>
+            <li><a href="https://google.com/images">Business</a></li>
+            <li><a href="https://google.com/images">About</a></li>
+            <li><a href="https://google.com/images">How Search works</a></li>
+            <li style="float:right"><a href="https://google.com/images">Settings</a></li>
+            <li style="float:right"><a href="https://google.com/images">Terms</a></li>
+            <li style="float:right"><a href="https://google.com/images">Privacy</a></li>
+        </ul> 
+    </div>
+</footer>    
+</body>
+</html>
+
